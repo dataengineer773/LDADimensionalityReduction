@@ -1,0 +1,3 @@
+At first we make_calssofocation function an in th ebext steps we use dimenssionalit reduction on the dataset while fitting a naive bayes model we will use Pipeline where the first step perform the LDA transform and selects the five
+most important dimenssions or componants, then Naive Bayes model on these features and  in the next steps we find the better approach is to evaluate the same transform and model with diffrent numbers of input 
+features(amount of dimenssionality reduction) that results in the best average performance and in the final steps we may choose to use an LDA transform and Naive Bayes model combination as our final model.
